@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <link href="css/mui.min.css" rel="stylesheet"/>   
+	<link rel="stylesheet" type="text/css" href="css/xiangqing.css"/>
+</head>
+<body>
+	<header class="mui-bar mui-bar-nav">
+		<h1 class="mui-title">修改地址</h1>
+	</header>
+	<div class="mui-content">
+		<div class="wright">
+			姓名：<input type="text" id="userName"/><br>
+			手机：<input type="text" id="phoneNum"/><br>
+			电话(选填)：<input type="text" id=""/><br>
+			地址：<input type="text" id="address"/ placeholder="如道路门派号 小区 单元等"><br>
+		</div>
+		<div class="done">
+			完成
+		</div>
+	</div>
+	
+	<script src="js/libs/require.js"></script>
+	<script type="text/javascript" charset="utf-8">
+		require(['./js/main'],function(){
+			require(['xiangqing'])
+		})
+	</script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-size: 0.37333rem; }
+
+body {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none; }
+
+button, textarea, select, input {
+  appearance: none; }
+
+a {
+  -webkit-tap-highlight-color: black; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+.mui-bar-nav {
+  background: orangered; }
+
+.list {
+  width: 100%;
+  height: auto; }
+  .list li {
+    width: 100%;
+    height: auto;
+    padding: 0.53333rem 0.53333rem;
+    line-height: 2;
+    border-bottom: 0.13333rem solid #ccc; }
+    .list li b {
+      margin-right: 0.8rem;
+      font-size: 0.53333rem; }
+    .list li span {
+      font-size: 0.53333rem; }
+    .list li .tip {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .list li .tip .left {
+        width: 30%;
+        height: auto; }
+      .list li .tip .right {
+        width: 70%;
+        height: auto; }
+        .list li .tip .right button {
+          border: 0.02667rem solid #ccc;
+          border-radius: 0.53333rem;
+          padding: 0.08rem 0.26667rem;
+          margin-right: 0.8rem; }
+
+.add {
+  width: 90%;
+  height: auto;
+  background: orangered;
+  border-radius: 0.8rem;
+  padding: 0.13333rem 0;
+  color: #fff;
+  text-align: center;
+  font-size: 0.69333rem;
+  margin: 0 auto;
+  position: fixed;
+  left: 0;
+  bottom: 0; }
